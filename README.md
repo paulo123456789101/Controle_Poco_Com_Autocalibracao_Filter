@@ -98,7 +98,8 @@ Início
 1. Mantenha **os eletrodos imersos em água**.  
 2. Pressione e segure o **botão de modo** por 2 s ao ligar.  
 3. O sistema mede as tensões médias e ajusta automaticamente os ganhos:  
-   ```cpp
+   
    float alvo = (vmin + vmax) / 2.0;
    ganhoMin = alvo / vmin;
    ganhoMax = alvo / vmax;
+
